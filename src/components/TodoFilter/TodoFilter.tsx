@@ -18,7 +18,7 @@ export const TodoFilter: React.FC<Props> = ({
   onClearQuery,
 }) => {
   return (
-    <form className="field has-addons">
+    <div className="field has-addons">
       <p className="control">
         <span className="select">
           <select
@@ -58,6 +58,6 @@ export const TodoFilter: React.FC<Props> = ({
           </span>
         )}
       </p>
-    </form>
+    </div>
   );
 };
